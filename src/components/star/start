@@ -1,0 +1,22 @@
+<template>
+	<div class="star" :class="starType">
+		<span v-for="itemClass in itemClasses" :class="itemClass" class="star-item"></span>
+	</div>
+</template>
+
+<script type="text/ecmascript-6">
+	export default {
+		props: {
+			size: {
+				type: Number
+			},
+			scroe: {
+				type: Number
+			}
+		}
+	}
+</script>
+
+<style rel="stylesheet" style="stylesheet/scss" lang="scss">
+	
+</style>
